@@ -10,7 +10,8 @@ import { MainContainer,
 
 function App() {
 
-  const API_KEY = process.env.API_KEY;
+  const API_KEY = process.env.REACT_APP_API_KEY;
+  console.log(API_KEY);
 
   const [messages, setMessages] = useState([
     {
@@ -72,7 +73,7 @@ function App() {
       method: "POST",
       headers: {
         "Authorization": "Bearer " + API_KEY,
-        "Content-Type": "application"
+        "Content-Type": "application/json"
       },
       body: JSON.stringify(apiRequestBody)
       }).then((data) => {
