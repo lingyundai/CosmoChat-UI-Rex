@@ -30,10 +30,3 @@ CosmoChat UI is a state-of-the-art chat interface designed to enhance online com
 ## Tools used
 React.JS, Material UI, Framer Motion, Axios, Open AI. 
 
-## Acknowledgement 
-Special Thanks to my mentor Billy Bett for helping me get through my blockers and RadicalX CEO Talha Sabri for this opportunity. 
-
-
-## About RadicalX
-![RadicalX](https://i.imgur.com/1yxvh5u.png)
-RadicalX is pioneering an immersive digital world designed specifically for Gen Z developers.# Cosmochat
