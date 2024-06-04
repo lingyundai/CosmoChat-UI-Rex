@@ -8,8 +8,6 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
-import ChatIcon from '@mui/icons-material/Chat';
-import DeleteIcon from '@mui/icons-material/Delete';
 
 const ChatHistory = ({
   id,
@@ -61,7 +59,7 @@ const ChatHistory = ({
               {...chatHistoryStyles.deleteButton}
               onClick={handleOpen}
             >
-              <DeleteIcon alt="Delete" />
+              <img src={Images.Trash} alt="Delete" />
             </Button>
             <Dialog
               open={open}
@@ -71,7 +69,7 @@ const ChatHistory = ({
               id="textClose"
             >
               <DialogTitle id="responsive-dialog-title">
-                <ChatIcon alt="homeRex" />
+                <img src={Images.HomRex} alt="homeRex" />
               </DialogTitle>
               <DialogContent>
                 <DialogContentText {...chatHistoryStyles.popUpTextTitle}>

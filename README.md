@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# CosmoChat UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+CosmoChat UI is a state-of-the-art chat interface designed to enhance online communication through a seamless and interactive user experience. Built using advanced frontend technologies such as React and Redux, it incorporates OpenAI's GPT technology to offer intelligent, automated responses, enriching user interaction. Key features include real-time message delivery, customizable user themes, and a responsive layout. By integrating with OpenAI, CosmoChat UI aims to transform standard messaging into dynamic conversations, ensuring messages are not just exchanged but are also engaging and insightful.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Screen Shots
 
-### `npm start`
+### Welcome Page
+![welcomePage](./src/assets/screenshots/WelcomePage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
+![HomePage](./src/assets/screenshots/HomePageWithOneMessage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Chat Window with openAI response
+![ChatWindow](./src/assets/screenshots/OpenAIResponse.png)
 
-### `npm test`
+### Ended Chats List
+![EndedChats](./src//assets/screenshots/EndedChatsPage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Chat Menu
+![ChatMenu](./src/assets/screenshots/ChatMenu.png)
 
-### `npm run build`
+### Delete Button on Home Page
+![DeleteButton](./src/assets/screenshots/DeleteButtonOnHomePage.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Activity Page
+![ActivityPage](./src/assets/screenshots/ActivityPage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tools used
+React.JS, Material UI, Framer Motion, Axios, Open AI. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acknowledgement 
+Special Thanks to my mentor Billy Bett for helping me get through my blockers and RadicalX CEO Talha Sabri for this opportunity. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## About RadicalX
+![RadicalX](https://i.imgur.com/1yxvh5u.png)
+RadicalX is pioneering an immersive digital world designed specifically for Gen Z developers.# Cosmochat

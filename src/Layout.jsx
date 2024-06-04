@@ -10,15 +10,15 @@ const Layout = () => {
 
   const location = useLocation();
   useEffect(() => {
-    if (location.pathname === "/") {
+    if (location.pathname == "/") {
       setIsChat(false);
       setIsEndedChats(false);
       setIsActivity(false);
-    } else if (location.pathname === "/endedChats") {
+    } else if (location.pathname == "/endedChats") {
       setIsChat(false);
       setIsEndedChats(true);
       setIsActivity(false);
-    } else if (location.pathname === "/activity") {
+    } else if (location.pathname == "/activity") {
       setIsChat(false);
       setIsEndedChats(false);
       setIsActivity(true);

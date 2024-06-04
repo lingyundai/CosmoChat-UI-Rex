@@ -101,4 +101,3 @@ const ChatStyles = {
   };
   
   export default ChatStyles;
-  

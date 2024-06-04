@@ -13,15 +13,6 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import chatHistoryStyles from "../../styles/chatHistory";
-import ActivityIcon from '@mui/icons-material/Activity';
-import SettingsIcon from '@mui/icons-material/Settings';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ChatIcon from '@mui/icons-material/Chat';
-import SearchIcon from '@mui/icons-material/Search';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import ClearIcon from '@mui/icons-material/Clear';
-import ImportExportIcon from '@mui/icons-material/ImportExport';
-
 
 const Navigation = ({ isChat, isEndedChats, isActvity }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -93,7 +84,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         <Grid {...AllStyles.navigationLeft}>
           <Grid style={{ margin: "5px" }}>
             <Link href="/">
-                <ArrowBackIcon alt="NavRex" />
+              <img src={Images.BackArrow} alt="NavRex" />
             </Link>
           </Grid>
           {isActvity ? (
@@ -106,7 +97,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         <Grid {...AllStyles.navigationLeft}>
           <Grid style={{ margin: "5px" }}>
             <Link href="/">
-                <ArrowBackIcon alt="NavRex" />
+              <img src={Images.BackArrow} alt="NavRex" />
             </Link>
           </Grid>
           <Grid {...AllStyles.navigationName}>ReX</Grid>
@@ -115,7 +106,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         <Grid {...AllStyles.navigationLeft}>
           <Grid>
             <Link href="/">
-                <ArrowBackIcon alt="NavRex" />
+              <img src={Images.NavRex} alt="NavRex" />
             </Link>
           </Grid>
           <Grid {...AllStyles.navigationName}>ReX</Grid>
@@ -125,12 +116,12 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         <Grid {...AllStyles.navigationRight}>
           <Grid>
             <Link href="/search">
-                <SearchIcon alt="Search" />
+              <img src={Images.Search} alt="Search" />
             </Link>
           </Grid>
           <Grid>
             <Link onClick={handleClick}>
-                <MoreVertIcon alt="settings" />
+              <img src={Images.Options} alt="settings" />
             </Link>
             <Menu
               id="basic-menu"
@@ -146,7 +137,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
                 {...AllStyles.optonsMenuItem}
                 onClick={() => handleClose("Clear")}
               >
-                <ClearIcon alt="clear" />
+                <img src={Images.Clear} alt="clear" />
                 <Typography>&nbsp; Clear Chat</Typography>
               </MenuItem>
               <Divider variant="middle" />
@@ -154,7 +145,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
                 onClick={() => handleClose("export")}
                 {...AllStyles.optonsMenuItem}
               >
-                <ImportExportIcon alt="export" />
+                <img src={Images.Export} alt="export" />
                 <Typography>&nbsp; Export Chat</Typography>
               </MenuItem>
               <Divider variant="middle" />
@@ -173,12 +164,12 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         <Grid {...AllStyles.navigationRight}>
           <Grid>
             <Link href="/activity">
-                <ActivityIcon />
+              <img src={Images.ActivityIc} alt="Activity" />
             </Link>
           </Grid>
           <Grid>
             <Link href="/settings">
-                <SettingsIcon />
+              <img src={Images.SettingIc} alt="settings" />
             </Link>
           </Grid>
         </Grid>
@@ -191,7 +182,7 @@ const Navigation = ({ isChat, isEndedChats, isActvity }) => {
         {...chatHistoryStyles.popUp}
       >
         <DialogTitle id="responsive-dialog-title">
-            <ChatIcon alt="homeRex" />
+          <img src={Images.HomRex} alt="homeRex" />
         </DialogTitle>
         <DialogContent id="responsive-dialog-description">
           <DialogContentText {...chatHistoryStyles.popUpTextTitle}>

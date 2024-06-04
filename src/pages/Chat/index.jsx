@@ -9,7 +9,6 @@ import OpenAI from "openai";
 import { useParams } from "react-router-dom";
 import UserMessage from "../../components/UserMessage";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import SendIcon from '@mui/icons-material/Send';
 
 const Chat = () => {
   const { id } = useParams();
@@ -151,10 +150,11 @@ const Chat = () => {
               value={userPrompt}
             />
             <Button {...ChatStyles.sendButton} onClick={handleSubmit}>
-                <SendIcon 
-                    alt="send"
-                    {...ChatStyles.sendButtonImage}
-                />
+              <img
+                src={Images.SendButton}
+                alt="send"
+                {...ChatStyles.sendButtonImage}
+              />
             </Button>
           </Grid>
         ) : null}

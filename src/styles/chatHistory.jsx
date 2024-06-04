@@ -139,4 +139,3 @@ const chatHistoryStyles = {
   };
   
   export default chatHistoryStyles;
-  

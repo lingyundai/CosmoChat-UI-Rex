@@ -13,7 +13,6 @@ import api from "../../api/sessions";
 import ChatHistory from "../../components/ChatHistory";
 import { useNavigate } from "react-router";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import ChatIcon from '@mui/icons-material/Chat';
 
 function Home() {
   const [sessions, setSessions] = useState([]);
@@ -130,7 +129,7 @@ function Home() {
       ) : sessions.length == 0 ? (
         <Grid item {...AllStyles.homeBody}>
           <Grid {...AllStyles.homeRex}>
-            <ChatIcon alt="homeRex" />
+            <img src={Images.HomRex} alt="homeRex" />
           </Grid>
           <Grid className="greetings">
             <Typography {...AllStyles.greetings}>

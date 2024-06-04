@@ -195,4 +195,3 @@ const AllStyles = {
   };
   
   export default AllStyles;
-  
